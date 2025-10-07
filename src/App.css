@@ -1,0 +1,81 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.fb-RequestCard {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.fb-RequestCard-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  align-self: center;
+  margin-bottom: 12px;
+}
+
+.fb-RequestCard-user {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #1c1e21;
+}
+
+.fb-RequestCard-info {
+  color: #65676b;
+  margin-bottom: 16px;
+}
+
+.fb-RequestCard-section {
+  display: flex;
+  gap: 8px;
+}
+
+.fb-RequestCard-button {
+  flex: 1;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fb-RequestCard-button-delete {
+  flex: 1;
+  background-color: #e4e6eb;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fb-RequestCard-button:hover {
+  background-color: #166fe5;
+}
+
+.fb-RequestCard-button-delete:hover {
+  background-color: #d8dadf;
+}
+.fb-RequestCard-Button-stop{
+  background-color: #e4e6eb;
+  color: black;
+  border: none;
+  border-radius: 6px;
+}
+.fb-RequestCard-Button-stop:hover{
+ color: #CB1A06 ;
+}
