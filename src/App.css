@@ -53,6 +53,7 @@
 }
 
 .fb-RequestCard-button-delete {
+  display: none;
   flex: 1;
   background-color: #e4e6eb;
   color: black;

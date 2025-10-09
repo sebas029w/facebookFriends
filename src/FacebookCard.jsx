@@ -22,7 +22,7 @@ export function FacebookFollowCard({ userName, commonFriends, initialIsFriend })
           onClick={handelClick}>{text}</span></strong>
         </button>
         <button className={buttonClassName}>
-          <strong><span>Eliminar</span></strong>
+          <strong><span onClick={handelClick}>Eliminar</span></strong>
         </button>
       </div>
     </article>
