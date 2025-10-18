@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 export function FacebookFollowCard({ userName, commonFriends, initialIsFriend }) {
   const [isFriend, setIsFriend] = useState(initialIsFriend);
   const text = isFriend? "Ahora son amigos":"confirmar"
