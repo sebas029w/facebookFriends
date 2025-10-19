@@ -34,7 +34,11 @@ export function App() {
   if (isLoading) {
     return <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/800px-2023_Facebook_icon.svg.png" 
     alt="logoLoading" 
+    className='loading-image'
     />;
+  }
+  if (error){
+    return <p>Network Error</p>
   }
   return(
     <div className='app-container'>

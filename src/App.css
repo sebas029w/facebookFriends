@@ -5,7 +5,10 @@
   background-color: #f0f2f5;
   min-height: 100vh;  
 }
-
+.loading-image{
+  width: 200px;
+  height: 200px;
+}
 .fb-RequestCard {
   background: white;
   border-radius: 8px;
